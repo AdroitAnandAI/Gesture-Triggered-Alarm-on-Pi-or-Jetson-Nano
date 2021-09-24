@@ -3,7 +3,7 @@ _Gesture Triggered Cam Alarm for Women Security based on Computer Vision, Mathem
 
 **Imagine a lady who is sitting alone in a clinic, shop, company, or isolated elsewhere needs urgent rescue.** She may not have the opportunity or liberty to make a call. The surveillance camera should be smart enough to understand her gestures, be it with hand or objects, as an SOS signal. We can **use image processing, deep learning, or arithmetic algorithms to analyze the incoming video frames from an SoC with a camera, to trigger an alert.**
 
-[![Watch Project Demo](images/vidPreview.png)](https://youtu.be/NzQqCbhVgbs)
+[![Watch Project Demo](images/preview.png)](https://youtu.be/NzQqCbhVgbs)
 
 There are **3 main modules** for this project,
 a) **Localize the object**, used to trigger the event.
