@@ -45,7 +45,9 @@ python3 gesture_recognition_demo.py -m_a OV2021_models/asl-recognition-0004.xml 
 
 if you get an error on module import, then add this path: <omz_dir>/demos/common/python to the system path.
 
-### Solution Idea
+### Solution Algorithm
+
+There are **2 modules** in the solution. First, localize the object in context. Then, estimate the trajectory shape. If the trajectory shape is circular then detect the event and trigger the alarm.
 
 - **Object Localization: Object Color Masking using Computer Vision**
  
