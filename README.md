@@ -3,6 +3,8 @@ _Gesture Triggered Cam Alarm for Women Security based on Computer Vision, Mathem
 
 **Imagine a lady who is sitting alone in a clinic, shop, company, or isolated elsewhere needs urgent rescue.** She may not have the opportunity or liberty to make a call. The surveillance camera should be smart enough to understand her gestures, be it with hand or objects, as an SOS signal. We can **use image processing, deep learning, or arithmetic algorithms to analyze the incoming video frames from an SoC with a camera, to trigger an alert.**
 
+[![Watch Project Demo](images/vidPreview.png)](https://youtu.be/NzQqCbhVgbs)
+
 There are **3 main modules** for this project,
 a) **Localize the object**, used to trigger the event.
 b) **Analyze the motion** of the object to recognize the signal
@@ -74,6 +76,10 @@ Thus, **we can use Object Color Masking (to detect an object) and use efficient 
 **This is an efficient and practical solution for gesture detection on edge devices.** Probably the only downside may be the sensitivity to extreme lighting conditions or the need for an external object other than your body, to trigger the alarm.
 
 To address the above drawback, we can also use gesture recognition models optimized by OpenVINO to recognize sign languages and trigger alerts. If you want to use a custom gesture then you can train your own and convert to intermediate representation using model optimizer.
+
+
+https://user-images.githubusercontent.com/39004869/134632745-53bbf2fd-3a46-4b23-a51e-dd390fdc1972.mp4
+
 
 However, some layers of such OpenVINO models are not supported by MYRIAD device as given in the table here. Hence, this module need to be hosted on a remote server as an API. Alternatively, we can train hand gesture classification model and convert to OpenVINO IR format to deploy on an SoC. **To conclude, we can consider the vector algebra model to be an efficient, cheap and generic solution to detect gestures.**
 
