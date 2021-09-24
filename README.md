@@ -8,9 +8,10 @@ _Gesture Triggered Cam Alarm for Women Security based on Computer Vision, Mathem
 [![Watch Project Demo](images/preview.png)](https://youtu.be/NzQqCbhVgbs)
 
 There are **3 main modules** for this project,
-a) **Localize the object**, used to trigger the event.
-b) **Analyze the motion** of the object to recognize the signal
-c) **Deployment on an SoC** to install the gadget in the environment.
+
+- **Localize the object**, used to trigger the event.
+- **Analyze the motion** of the object to recognize the signal
+- **Deployment on an SoC** to install the gadget in the environment.
 
 This is a tricky problem, as **we need a cheap solution for easy adoption, but not at the cost of accuracy**, as we deal with emergencies here. Similarly, it is **easier to detect a custom object but it is more useful to use your own body** to signal the emergency.
 
