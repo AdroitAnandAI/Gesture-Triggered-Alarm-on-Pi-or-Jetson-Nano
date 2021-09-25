@@ -23,7 +23,7 @@ To run the object tracking and gesture recognition code,
 python3 ball_tracking.py
 ```
 
-**Note:**The twilio account details need to be filled in correctly in `sendsms.py` file in order to get alert messages on mobile.
+**Note:** The twilio account details need to be filled in correctly in `sendsms.py` file in order to get alert messages on mobile.
 
 To enable alarm simulation with Pimoroni Blinkt! execute
 ```sh
